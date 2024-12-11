@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  aws-cloud-controller-manager:
+  - apiVersion: v1
+    appVersion: v1.27.1
+    created: "2024-12-11T22:00:28.942509+05:30"
+    description: Installs Cloud Controller Manager for AWS Cloud Provider
+    digest: c057a74b10f6c623494524d18718ee82e983f3ef4ee8be55f3d8928a25dfc736
+    maintainers:
+    - email: nic@amazon.com
+      name: Nick Turner
+    name: aws-cloud-controller-manager
+    urls:
+    - https://raw.githubusercontent.com/platform9/cloud-provider-aws/refs/heads/master/charts/stable/aws-cloud-controller-manager-0.0.9.tgz
+    version: 0.0.9
+generated: "2024-12-11T22:00:28.93124+05:30"
